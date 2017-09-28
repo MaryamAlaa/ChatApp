@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ChatApplication</string>
+    <string name="error_user_name">Can\'t be Blank</string>
+    <string name="error_password">Can\'t be Blank</string>
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="hint_confirmation">Confirm Password</string>
+    <string name="register_button">Register</string>
+    <string name="login_button">Login</string>
+    <string name="new_account">Don\'t have an account? Register now.</string>
+    <string name="usernameError">can\'t be blank</string>
+    <string name="passwordError">can\'t be blank</string>
+    <string name="passAuth">at least 5 characters long</string>
+    <string name="msgPd">Loading...</string>
+    <string name="rootUsers">Users</string>
+    <string name="successMsg">Success</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="emailError">can\'t be blank</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="used_email_msg">The email address is already in use by another account.</string>
+    <string name="register_failed">register failed</string>
+    <string name="usersDb">Users</string>
+    <string name="photoDb">photos</string>
+    <string name="confirm_error">password not matching</string>
+    <string name="loading_msg">"Loading... "</string>
+    <string name="imagePath">image/*</string>
+    <string name="error_connection">There is no internet connection</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_main"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context=".ui.Register">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:id="@+id/ScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/registration_background"
+        android:padding="25dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Register_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:text="Register"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <EditText
+                android:id="@+id/registerActivity_editText_email"
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_corner"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+
+                 />
+
+            <EditText
+                android:id="@+id/registerActivity_editText_username"
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:hint="@string/hint_name"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+                 />
+
+            <EditText
+                android:id="@+id/registerActivity_editText_password"
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+                 />
+
+            <EditText
+                android:id="@+id/registerActivity_editText_confirm_password"
+                android:layout_width="fill_parent"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/rounded_corner"
+                android:hint="@string/hint_confirmation"
+                android:inputType="textPassword"
+                android:paddingLeft="10dp"
+                android:textColor="#000000"
+                 />
+
+            <CheckBox
+                android:id="@+id/register_show_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Show Password" />
+
+            <Button
+                android:id="@+id/registerActivity_button_register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/register_button"
+                android:text="@string/register_button"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/profile_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:background="@drawable/member_imview" />
+
+
+</RelativeLayout>

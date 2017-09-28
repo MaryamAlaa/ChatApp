@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mariam.chatapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/chat"
+        android:label="Chat"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.ChatRoom"
+            android:label="Chat Room" />
+        <activity
+            android:name=".ui.Register"
+            android:label="Register" />
+        <activity android:name=".ui.UsersActivity" />
+        <activity
+            android:name=".ui.PrivateChat"
+            android:parentActivityName=".ui.UsersActivity" />
+        <activity
+            android:name=".ui.ProfileActivity"
+            android:label="Profile"
+            android:parentActivityName=".ui.UsersActivity"/>
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ui.UsersActivity" />
+
+
+
+</application>
+
+    </manifest>

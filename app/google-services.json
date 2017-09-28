@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "735518781996",
+    "firebase_url": "https://chat-c67d4.firebaseio.com",
+    "project_id": "chat-c67d4",
+    "storage_bucket": "chat-c67d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735518781996:android:31657393aef505cc",
+        "android_client_info": {
+          "package_name": "com.example.mariam.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735518781996-r0of75ogdnsvt8rhf8jle2j6vn7o2mek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGmit0AgOJhJEh05xm_BT0kdJKDJyy59s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
